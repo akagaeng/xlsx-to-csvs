@@ -1,14 +1,14 @@
 {
-  "name": "xlsx-migration",
+  "name": "xlsx-to-csvs",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/akagaeng/xlsx-migration.git",
-  "author": "ks.yang <akagaeng@gmail.com>",
+  "main": "convert.js",
+  "repository": "https://github.com/akagaeng/xlsx-to-csvs.git",
+  "author": "akagaeng <akagaeng@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node batch.js",
-    "dependencies": {
-      "xlsx": "^0.17.0"
-    }
+    "start": "node convert.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.17.0"
   }
 }
