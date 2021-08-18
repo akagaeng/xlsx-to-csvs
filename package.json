@@ -1,0 +1,14 @@
+{
+  "name": "xlsx-migration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akagaeng/xlsx-migration.git",
+  "author": "ks.yang <akagaeng@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node batch.js",
+    "dependencies": {
+      "xlsx": "^0.17.0"
+    }
+  }
+}

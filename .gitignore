@@ -1,0 +1,9 @@
+# IDE
+.vscode
+.idea
+
+# Temp
+~$*
+
+# Packages
+node_modules
